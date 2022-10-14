@@ -20,6 +20,7 @@ public static void main(String[] args) {
 	// pre  and  post
 	// pre increment =  first increase then assign
 	// post increment = first assign then increase
+
 	
 	int d = ++a + a++ + a++ + ++a + a++ + a++ + ++a + a++ + ++a;
 // shortcut jaha per increment dikhe add karo . jaha per varibale, write it down
@@ -82,6 +83,11 @@ public static void main(String[] args) {
 	// bitwise 
 	// ternary operator  ?:
 	// increment / decrement 
+	
+	int m = 10;
+	int n = m++ + m++ + m++;
+		// 10 + 11 + 12
+	System.out.println(n);
 	
 	
 	

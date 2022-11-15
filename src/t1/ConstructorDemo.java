@@ -32,13 +32,23 @@ public class ConstructorDemo {
 	
 	public static void main(String[] args) {
 		ConstructorDemo c1 = new ConstructorDemo("Vaibhav");
-//		c1.showName();
-		
 		ConstructorDemo c2 = new ConstructorDemo("Va");
 		ConstructorDemo c3 = new ConstructorDemo("sadf");
-		
-		ConstructorDemo c4 = c3;
-		
+		c3.showName();
+		c3 = c2;
+	    c3.showName();
+	
+	int i = 10;
+	int j = 20;
+	i = j;
+	
+	
+//		ConstructorDemo c4 = c3;
+//		c1.showName();
+//		c1.showName();
+//		c1.showName();
+//		c1.showName();
+		//ConstructorDemo c1 = new ConstructorDemo();
 		
 //		HAS A Relationship
 		

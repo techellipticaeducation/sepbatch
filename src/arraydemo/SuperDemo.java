@@ -11,6 +11,7 @@ class B0{
 		System.out.println("B0.test1");
 	}
 }
+
 class B1 extends B0{
 	
 }

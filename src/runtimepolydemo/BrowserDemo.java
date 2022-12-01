@@ -10,6 +10,7 @@ public class BrowserDemo {
 }
 // Overriding is optional - parent method - logic
 // mandate
+//1-52 , 4 people , unique number randomly devide
 
 
 class WebBrowser{
@@ -18,7 +19,7 @@ class WebBrowser{
 	}
 	
 	public void closeLink() {
-
+		
 	}
 }
 

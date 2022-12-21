@@ -16,6 +16,8 @@ public class Test1 {
 			System.out.println(i/j);
 			System.out.println("i am in the try block");
 			kl[4] = 0;
+			
+			//close
 		}catch(ArithmeticException e) {
 			System.out.println("You should not devide your value with " + j);
 			e.printStackTrace();
@@ -23,6 +25,9 @@ public class Test1 {
 			System.out.println("Array index is not correct. kindly check once ");
 		}catch(Exception e) {
 			System.out.println("something is wrong");
+		}finally {
+			// mandatory execute
+			System.out.println("finally block");
 		}
 
 		System.out.println("I am the code after exception");
